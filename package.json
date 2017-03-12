@@ -1,6 +1,6 @@
 {
   "name": "stylus-vars-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Prepend your vars files (@imports) to your styl files.",
   "main": "index.js",
   "scripts": {
