@@ -16,11 +16,14 @@ or
   use: [
     'style-loader',
     'css-loader',
-    'stylus-loader?{"resolve url":1}',
+    'stylus-loader',
     {
       loader: 'stylus-vars-loader',
       options: {
         file: './css/vars.styl',
+
+        // you can also do multiple files
+        file: ['./css/vars.styl', './css/media-queries.styl'],
       },
     },
   ]
