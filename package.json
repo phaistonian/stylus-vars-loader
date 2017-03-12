@@ -1,14 +1,23 @@
 {
-  "name": "stylus-vars",
+  "name": "stylus-vars-loader",
   "version": "1.0.0",
-  "description": "",
+  "description": "Prepend your vars files (@imports) to your styl files.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "George E. Papadakis",
   "license": "ISC",
   "dependencies": {
     "loader-utils": "^1.0.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaistonian/stylus-vars-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phaistonian/stylus-vars-loader/issues"
+  },
+  "homepage": "https://github.com/phaistonian/stylus-vars-loader#readme"
 }
