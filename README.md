@@ -24,6 +24,9 @@ or
 
         // you can also do multiple files
         file: ['./css/vars.styl', './css/media-queries.styl'],
+
+        // glob too
+        file: './css/vars/*',
       },
     },
   ]
