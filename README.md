@@ -29,3 +29,7 @@ or
   ]
 }
 ```
+
+---
+
+Special thanks to [Juho](https://twitter.com/bebraw) for always sharing pointers when asked to.
