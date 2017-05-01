@@ -24,6 +24,7 @@ module.exports = function (input) {
     .filter(f => f !== this.resourcePath);
 
   const imports = absFiles.map(f => `@import '${f}';`).join('\n');
+
   const result = `${imports}
 
 ${input}`;

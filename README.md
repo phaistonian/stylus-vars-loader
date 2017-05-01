@@ -9,6 +9,11 @@ then instead of always referencing your global `vars.styl` file from the `index.
 or
 `yarn add stylus-vars-loader`
 
+### Publish
+`yarn version`
+`git push`
+`npm publish`
+
 ### Use
 ```js
 {
